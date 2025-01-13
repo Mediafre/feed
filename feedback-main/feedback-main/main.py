@@ -2,7 +2,7 @@ import asyncio
 import contextlib
 import logging
 
-import aiorun
+import feedback
 from pyrogram import Client
 from pyrogram.enums import ParseMode
 from pyrogram.errors import RPCError, TopicNotModified
